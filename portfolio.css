@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.nav_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.image1{
+    height: 50px;
+    width: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    color: blue;
+
+}
+.nav_items{
+    padding: 5px;
+    text-decoration: none;
+    transition: font-size 0.5s;
+    margin-right: 10px;
+
+}
+.nav_items:hover{
+    padding: 5px;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+.section{
+    display: none;
+}
+:target{
+    display: block;
+}
+.details{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    padding-right: 0;
+    text-align: center;
+    padding-right: 20%;
+
+}
+.content{
+    width: 50vw;
+    height: 40vh;
+    padding-top: 100px;
+    padding-left: 25%
+}
+.images {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.images img{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    margin-left: 50%;
+    transition: 0.5s;
+}
+.images img:hover{
+    transform: translateY(-30px);
+}
+.name{
+    color: rgb(49, 5, 245);
+    transition: font-size 0.5s;
+}
+.name:hover{
+    font-size: 45px;
+}
+.container {
+    display: flex;
+    padding-left: 25%;
+    flex-direction: column;
+    align-items: center;
+}
+#button {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #7d2ae8;
+    border-radius: 15px;
+    border: 2px solid #7d2ae8;
+    text-decoration: none;
+    margin: 0 50px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: .5s;
+}
+#button:hover{
+    transform: translateY(-15px);
+}
+#Profile {
+    text-align: center;
+    
+}
+.profile_head{  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+.list_data{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.list_head{
+    font-weight: bolder;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#education{
+    text-align: center;
+
+}
+.edu_head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+.h2{
+    color: darkgoldenrod;
+   margin-bottom: 15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.edu_data div {
+    margin-bottom: 10px;
+    color: rgb(0, 12, 0);
+    font-weight: bold;
+}
+#skills{
+    text-align: center;
+
+}
+.skill_head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+.h3{
+    color: darkgoldenrod;
+   margin-bottom: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skill_data div {
+    margin-bottom: 10px;
+    color: rgb(0, 12, 0);
+    font-weight: bold;
+}
+#contact{
+    text-align: center;
+    
+}
+.contact_head{
+    margin-bottom: 30px;
+    color: firebrick;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact a{
+    margin: 10px;   
+}
+
+.whatsapp{
+    height: 50px;
+    margin-bottom: 20px;
+    transition: .5s;
+
+}
+.whatsapp:hover{
+    transform: translateY(-16px);
+}
+.facebook{
+    height: 50px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.facebook:hover{
+    transform: translateY(-16px);
+}
+.linkedin{
+    height: 50px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.linkedin:hover{
+    transform: translateY(-16px);
+}
+
+
